@@ -1,0 +1,56 @@
+html {
+    background-color: lightslategray;
+}
+body {
+    margin: auto;
+    max-width: 600px;
+    height: 600px;
+    background-color: azure;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+div {
+    border-width: 1px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 5px;
+    
+}
+
+div#billy {
+    color: darkred;
+}
+
+div#bob {
+    color: darkgreen;
+}
+
+#billy .two {
+    text-size-adjust: larger;
+}
+
+#bob .two {
+    text-size-adjust: larger;
+}
+
+#billy .three {
+    text-size-adjust: smaller;
+}
+
+#bob .three {
+    text-size-adjust: smaller;
+}
+
+div#bob .a {
+    text-decoration: line-through;
+}
+
+#bob .two a {
+    text-decoration: underline overline;
+    color: orange;
+}
