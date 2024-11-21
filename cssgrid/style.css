@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    display: grid;
+}
+
+main {
+    padding: 1em;
+}
+
+nav {
+    padding: 1em;
+    background-color: lightgrey;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 83%;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    display: grid;
+}
