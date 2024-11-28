@@ -1,0 +1,26 @@
+.red-text {
+    color: red;
+    font-size: 24px;
+}
+
+
+.black-on-black {
+    color: #000000;
+}
+
+
+.large-image {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+
+.small-text {
+    font-size: 15px;
+}
+
+
+.large-text {
+    font-size: 30px;
+}
