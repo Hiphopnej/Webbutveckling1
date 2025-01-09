@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+body {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-bottom: 0;
+}
+
+
+.container {
+    height: 90vh;
+}
+
+
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    height: 30px;
+    background-color: black;
+}
