@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antes advokatbyrå</title>
+    <link rel="stylesheet" href="css/styleHome.css">
+    <script src="javascript/script.js" defer></script>
+</head>
+<body>
+    <header class="mainmenu">
+        <ul>
+            <li><a href="home.html">Hem</a></li>
+            <li><a href="jobs.html">Jobb</a></li>
+            <li><a href="contacts.html">Kontakta oss</a></li>
+            <li><a href="about.html">Om oss</a></li>
+        </ul>
+    </header>
+    <h1>Välkommen till Antes advokatbyrå</h1>
+    <div class="text">
+    <p>Vi är av de ledande advokatbyråerna inom Norden med omkring 300 anställda. Våra kontor finns</p>
+    <p>i Stockholm, Karlstad, Göteborg och Helsingborg. Tillsammans så skapar vi framgång som är</p>
+    <p>byggd på erfarenhet och nytt tänkande.</p>
+    </div>
+    <p>Current count: <span id="count"></span></p>
+    <p>Det finns även fya knappar att hitta. Lycka till!</p>
+    <p>På Sida 2 måste man klicka knappen, byta sida, byta tillbaka och sedan klicka på knappen igen.</p>
+    <button onclick="document.getElementById('count').innerHTML = count;">Increase Count</button>
+    <button onclick="localStorage.clear(); location.reload();">Reset Count</button>
+    <script>
+        // Display the count when the page loads
+        document.getElementById('count').innerHTML = localStorage.getItem('count') || 0;
+    </script>
+</body>
+</html>
