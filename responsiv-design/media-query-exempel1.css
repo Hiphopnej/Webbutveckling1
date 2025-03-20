@@ -1,0 +1,40 @@
+img {
+	max-width: 100%;
+}
+figure {
+	margin: 0;
+}
+
+@media screen and (min-width: 794px) {
+	body 	{
+		background: purple;
+		margin: 2px;
+		}
+}
+
+@media screen and (min-width: 420px) {
+    body    {
+        background-color: rgb(255, 120, 239);
+        font-size: 14px;
+        margin: 3px;
+    }
+
+    h1  {
+        height: 7px;
+        width: 10px;
+    }
+
+    h2  {
+        height: 5px;
+        width: 8px;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    body    {
+        background-color: red;
+        font-size: 16px;
+        margin: 7px;
+        max-width: 900px;
+    }
+}
